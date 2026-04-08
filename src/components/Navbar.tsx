@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -33,7 +33,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between px-6">
         <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="Mentes Como Global Limited" className="h-10 w-auto rounded" />
+          <img src={logo} alt="Mentes Como Global Limited" className="h-12 w-auto drop-shadow-[0_0_8px_rgba(255,255,255,0.6)]" />
           <span className="font-heading text-lg font-bold text-primary-foreground hidden sm:block">
             Mentes Como
           </span>
