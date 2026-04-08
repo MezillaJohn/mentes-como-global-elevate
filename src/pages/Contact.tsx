@@ -110,10 +110,6 @@ const Contact = () => {
               ))}
             </div>
 
-            {/* Map placeholder */}
-            <div className="mt-10 h-48 rounded-lg bg-muted border border-border flex items-center justify-center">
-              <p className="text-muted-foreground text-sm">Map placeholder</p>
-            </div>
           </AnimatedSection>
         </div>
       </section>
