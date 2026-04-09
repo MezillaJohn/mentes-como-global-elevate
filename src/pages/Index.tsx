@@ -50,7 +50,7 @@ const Index = () => (
           transition={{ duration: 0.8 }}
         >
           <span className="inline-block text-secondary font-semibold text-sm tracking-widest uppercase mb-6">
-            Mentes Como Global Limited
+            Mentes Como Global Limited.
           </span>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl font-bold text-primary-foreground leading-tight max-w-5xl mx-auto">
             Integrated Procurement & Logistics Solutions for the{" "}
